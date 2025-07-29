@@ -83,7 +83,7 @@ login({ appState: JSON.parse(fs.readFileSync("appstate.json", "utf8")) }, (err, 
       if (!body) return;
       const lowerBody = body.toLowerCase();
 
-      const badNames = ["vikram", "goku", "aj", "abhi", "arman", "foku", "rohit"];
+      const badNames = ["ayush", "abhay", "aj", "abhi", "devika", "AYUSH", "Devu"];
       const triggers = ["rkb", "bhen", "maa", "Rndi", "chut", "randi", "madhrchodh", "mc", "bc", "didi", "ma"];
 
       if (
